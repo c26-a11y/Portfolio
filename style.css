@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "DMSerif";
+    src: url(./assets/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+body {
+    font-family: "DMSerif", verdana;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #c5821f;
+    height: 85px;
+    margin: 0;
+    position:sticky;
+    top: 0;
+    left: 0;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul img {
+    height: 70px;
+    padding-top: 1vh;
+    padding-right: 3vw;
+    display: inline-block;
+    float: right;
+}
+
+ul li a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+    padding-left: 3vw;
+}
+
+ul li a:hover{
+    color: #cf2c2c;
+    text-decoration: underline;
+}
+
+.menu li {
+    float: left;
+    padding: 35px;
+}
+.menu li a {
+    text-decoration: none;
+}
+
+
+body.accueil {
+    background: url(./assets/img/simple-vecteur-fond-orange-vierge-pour-entreprises_53876-171639.avif);
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 10vw;
+    text-shadow: -15px 7px 18px #000000e0;
+    color: #000000;
+}
+
+.flexbox ul {
+  width: 85%;
+  background: rgba(245, 245, 245, 0.9);
+  /* Centrer une boite */
+  margin: auto;
+  border: 2px solid rgb(251 148 20);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 0 20px 12px #eb962e;
+  padding: 40px;
+  font-size: 1.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 5vw;
+    text-shadow: -15px 7px 18px #000000e0;
+    color: #000000;
+}
+
+body.presentation {
+    height: 105vh;
+}
+
+body.stage {
+    height: 120vh;
+
+}
+
+.flexbox2 img {
+    width: 80%;
+  background: rgba(245, 245, 245, 0.9);
+  /* Centrer une boite */
+  margin: auto;
+  margin-top: 10vh;
+  margin-left: 10%;
+  padding: 0;
+}
+
+
+.flexbox3 ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.flexbox3 li {
+  list-style: none;
+  padding: 20px;
+  width: 40%;
+  margin-top: 5vh;
+  background: rgb(255, 255, 255);
+  /* Centrer un unique élément verticalement et horizontalement */
+  display: flex;
+}
+
+.flexbox3 li img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.flexbox4 ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.flexbox4 li {
+  list-style: none;
+  padding: 20px;
+  width: 40%;
+  margin-top: 5vh;
+  background: rgb(255, 255, 255);
+  /* Centrer un unique élément verticalement et horizontalement */
+  display: flex;
+}
+.flexbox4 li img {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.mail {
+    font-size: 3rem;
+    margin-top: 10%;
+}
